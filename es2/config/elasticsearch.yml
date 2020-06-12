@@ -1,0 +1,14 @@
+cluster.name: "elk"
+node.name: node2
+node.master: false
+node.data: true
+network.bind_host: 0.0.0.0
+network.publish_host: 192.168.10.46
+http.port: 9202
+transport.tcp.port: 9302
+http.cors.enabled: true
+http.cors.allow-origin: "*"
+discovery.seed_hosts: ["192.168.10.46:9301","192.168.10.46:9302","192.168.10.46:9303"]
+cluster.initial_master_nodes: ["node1"]
+xpack.monitoring.collection.enabled: true
+

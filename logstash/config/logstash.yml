@@ -1,0 +1,4 @@
+http.host: "0.0.0.0"
+xpack.monitoring.enabled: true
+xpack.monitoring.elasticsearch.hosts: ["http://192.168.10.46:9201","http://192.168.10.46:9202","http://192.168.10.46:9203"]
+
