@@ -26,7 +26,7 @@ do
 done
 
 if [ $? -eq 0 ];then
-  curl 'https://oapi.dingtalk.com/robot/send?access_token=8a85bbc0b969c7e650d080910f6db82ad1078dcf4862d65045f7bb2d68d28324' \
+  curl 'https://oapi.dingtalk.com/robot/send?access_token=×××××××××××××' \
   -H 'Content-Type: application/json' \
   -d '
   {"msgtype": "text",
@@ -35,7 +35,7 @@ if [ $? -eq 0 ];then
     }
   }'
 else
-  curl 'https://oapi.dingtalk.com/robot/send?access_token=8a85bbc0b969c7e650d080910f6db82ad1078dcf4862d65045f7bb2d68d28324' \
+  curl 'https://oapi.dingtalk.com/robot/send?access_token=×××××××××××' \
   -H 'Content-Type: application/json' \
   -d '
   {"msgtype": "text",
